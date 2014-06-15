@@ -1,0 +1,45 @@
+<android.support.v4.widget.DrawerLayout
+    android:layout_height="match_parent"
+    android:id="@+id/dlWebDrawer"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- The main content view -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivMic"
+            android:src="@android:drawable/ic_btn_speak_now"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivLock"
+            android:src="@android:drawable/ic_dialog_alert"
+            android:visibility="invisible"
+            />
+
+
+    </RelativeLayout>
+
+    <!--out navigation web drawer-->
+    <WebView
+        android:id="@+id/wvSideDrawer"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#111"
+        />
+
+</android.support.v4.widget.DrawerLayout>

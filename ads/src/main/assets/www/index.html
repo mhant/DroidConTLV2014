@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+<script>
+function closeAd(){
+	DroidCon.closeAd();
+}
+function nativeCall(nativeString){
+	elem = document.getElementById('native_div');
+	elem.innerHTML = nativeString;
+}
+</script>
+<head>
+<body>
+<h1>Big Time Ads</h1>
+<button onclick="closeAd()" type="button" class="btn btn-lg btn-primary">X</button>
+<br />
+<div id="native_div" class="alert alert-danger"></div>
+
+</body>
+</html>
