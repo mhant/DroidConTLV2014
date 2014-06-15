@@ -1,7 +1,7 @@
-DroidConTLV2014
+Example from DroidCon Tel Aviv 2014
 ===============
 
-The example code used in the presentation "How to Hybrid: Effective Tactics in HTML5-Native App Development" at DroidCon TLV 2014
+The set of example code used in the presentation "How to Hybrid: Effective Tactics in HTML5-Native App Development" at DroidCon TLV 2014.
 
 License
 
